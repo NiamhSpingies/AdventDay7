@@ -38,9 +38,9 @@ public class FileManager {
                     }
                 }
             } else if ("dir".equals(stringList[0])) {
-                Directory de = new Directory(currentDirectory, stringList[1]);
-                currentDirectory.addFile(de);
-                allDirectories.add(de);
+                Directory dir = new Directory(currentDirectory, stringList[1]);
+                currentDirectory.addFile(dir);
+                allDirectories.add(dir);
             } else {
                 currentDirectory.addFile(new File(stringList[1], Long.parseLong(stringList[0])));
             }

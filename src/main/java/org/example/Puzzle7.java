@@ -16,9 +16,6 @@ import java.util.Map;
 
 
 public class Puzzle7 {
-    private static Map<String, List> filesystem = new HashMap<>();
-    private static Map<String, Long> directorySizes = new HashMap<>();
-
     /**
      * The entry point of application.
      *
